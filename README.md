@@ -29,6 +29,7 @@ for example
             resolve();
         }).catch(()=>{reject()});
     })
-}```
+}
+```
 
 so when resolve called after REST call the `onChange` prop will be called.
