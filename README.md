@@ -33,3 +33,5 @@ for example:
 ```
 
 so when resolve called after REST call the `onChange` prop will be called.
+demo image:  
+![](demo-gif.gif)
