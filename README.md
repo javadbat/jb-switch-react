@@ -16,22 +16,24 @@ you can import special edition for different envirement like es6 or requirejs or
 
 use below syntax in your render function
 
-`<JBSwitch value={this.vm.booleavValue} trueTitle='true caption' falseTitle='false caption' onChange={(e)=>this.vm.onChange(e)} onBeforeChange={(e)=>this.service.onBeforeChange(e)}></JBSwitch>`
+```jsx
+<JBSwitch value={booleavValue} isLoading={isLoading} trueTitle='true caption' falseTitle='false caption' onChange={(e)=>onChange(e)} ></JBSwitch>
+```
 
 as you can see in above example `value` is on-way binding like normal react forms input trueTitle is a title that place on true side of component and get bold on `value == true` onChange is standard too  
-the special thing about this component is `onBeforeChange` event that is optional but when defined you can show loading before before changing actual value and after your REST call or any othe async method you change actual value.  
-for example:  
+if you want to show loading in switch just make `isLoading = true`
 
 ```javascript
- onBeforeChange(newValue){
+ onChange(e){
+     setIsLoading(true)
     return new Promise((resolve,reject)=>{
         fetch(request).then((response)=>return response.json).then((data)=>{
+            setIsLoading(false)
             resolve();
-        }).catch(()=>{reject()});
+        })
     })
 }
 ```
 
-so when resolve called after REST call the `onChange` prop will be called.  
 demo image:    
 ![](demo-gif.gif)
