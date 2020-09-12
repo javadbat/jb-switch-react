@@ -11,34 +11,24 @@
     "jb-switch-react",
     "switch",
     "form",
-    "react",
-    "mobx"
+    "react"
   ],
-  "version": "0.1.1",
+  "version": "0.1.3",
   "bugs": "https://github.com/javadbat/jb-switch-react/issues",
   "license": "MIT",
   "files": [
     "LICENSE",
     "README.md",
+    "index.js",
     "lib/",
     "dist/"
   ],
-  "main": "./dist/JBSwitch.cjs.min.js",
-  "jsnext:main":"./dist/JBSwitch.min.js",
-  "module": "./dist/JBSwitch.min.js",
+  "main": "./index.js",
+  "jsnext:main":"./index.js",
+  "module": "./index.js",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-switch-react.git"
-  },
-  "jspm": {
-    "main": "./dist/JBSwitch.systemjs.min.js",
-    "format":"register",
-    "files": [
-      "dist/JBSwitch.systemjs.min.js",
-      "dist/JBSwitch.css",
-      "LICENSE",
-      "README.md"
-    ]
   },
   "dependencies": {
    
