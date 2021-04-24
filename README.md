@@ -1,6 +1,7 @@
 # jb-switch-react
 
 simple switch component for react with loading ability
+sample:<https://codepen.io/javadbat/pen/jOyXKNJ>
 
 ## installation
 

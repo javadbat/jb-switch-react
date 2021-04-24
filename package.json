@@ -13,7 +13,7 @@
     "form",
     "react"
   ],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "bugs": "https://github.com/javadbat/jb-switch-react/issues",
   "license": "MIT",
   "files": [
