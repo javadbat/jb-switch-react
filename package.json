@@ -1,6 +1,6 @@
 {
   "name": "jb-switch-react",
-  "description": "react mobx jb switch input",
+  "description": "react switch component",
   "author": {
 		"name": "mohammad javad bathaei",
 		"email": "javadbat@gmail.com"
@@ -13,7 +13,7 @@
     "form",
     "react"
   ],
-  "version": "0.1.5",
+  "version": "0.2.0",
   "bugs": "https://github.com/javadbat/jb-switch-react/issues",
   "license": "MIT",
   "files": [
@@ -24,13 +24,13 @@
     "dist/"
   ],
   "main": "./index.js",
-  "jsnext:main":"./index.js",
   "module": "./index.js",
+  "types": "./dist/jb-switch/lib/JBSwitch.d.ts",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-switch-react.git"
   },
   "dependencies": {
-   
+    "jb-switch": ">=1.0.1"
   }
 }

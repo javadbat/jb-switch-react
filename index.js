@@ -1,2 +1,2 @@
-import JBSwitch from './dist/JBSwitch.js';
-export default JBSwitch;
+import {JBSwitch} from './dist/JBSwitch.js';
+export {JBSwitch};
