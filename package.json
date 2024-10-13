@@ -1,6 +1,7 @@
 {
   "name": "jb-switch-react",
   "description": "react switch component",
+  "type": "module",
   "author": {
 		"name": "mohammad javad bathaei",
 		"email": "javadbat@gmail.com"

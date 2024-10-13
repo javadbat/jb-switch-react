@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useImperativeHandle, useCallback, }
 import 'jb-switch';
 // eslint-disable-next-line no-duplicate-imports
 import { JBSwitchWebComponent } from 'jb-switch';
-import { useEvent } from '../../../common/hooks/use-event';
+import { useEvent } from '../../../common/hooks/use-event.js';
 
 declare global {
     // eslint-disable-next-line @typescript-eslint/no-namespace
