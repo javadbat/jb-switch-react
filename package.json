@@ -14,7 +14,7 @@
     "form",
     "react"
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "bugs": "https://github.com/javadbat/jb-switch-react/issues",
   "license": "MIT",
   "files": [
@@ -32,6 +32,6 @@
 		"url": "git@github.com:javadbat/jb-switch-react.git"
   },
   "dependencies": {
-    "jb-switch": ">=1.0.1"
+    "jb-switch": ">=1.2.1"
   }
 }

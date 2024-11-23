@@ -1,2 +1,1 @@
-import {JBSwitch} from './dist/JBSwitch.js';
-export {JBSwitch};
+export * from './dist/JBSwitch.js';
