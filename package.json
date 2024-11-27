@@ -14,7 +14,7 @@
     "form",
     "react"
   ],
-  "version": "0.3.0",
+  "version": "0.3.1",
   "bugs": "https://github.com/javadbat/jb-switch-react/issues",
   "license": "MIT",
   "files": [
@@ -26,7 +26,7 @@
   ],
   "main": "./index.js",
   "module": "./index.js",
-  "types": "./dist/jb-switch/lib/JBSwitch.d.ts",
+  "types": "./dist/react-component/jb-switch/lib/JBSwitch.d.ts",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-switch-react.git"

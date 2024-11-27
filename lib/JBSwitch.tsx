@@ -26,7 +26,7 @@ export type JBSwitchProps = {
   style?: string,
   name?: string,
   className?: string,
-  onChange?: (e: JBSwitchEventType<Event>) => void,
+  onChange?: (e: JBSwitchEventType<Event>) => void | null | undefined,
   value?: boolean | null | undefined,
   trueTitle?: string | null | undefined,
   falseTitle?: string | null | undefined,
