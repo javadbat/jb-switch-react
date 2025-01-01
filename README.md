@@ -1,5 +1,8 @@
 # jb-switch-react
 
+> [!WARNING]  
+> this package is deprecated and moved to [jb-switch/react](https://github.com/javadbat/jb-switch/tree/main/react)
+
 simple switch component for react with loading ability
 sample:<https://codepen.io/javadbat/pen/jOyXKNJ>
 
